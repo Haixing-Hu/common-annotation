@@ -20,7 +20,7 @@
   <artifactId>common-annotation</artifactId>
   <version>${common-annotation.version}${build.suffix}</version>
   <packaging>jar</packaging>
-  <name>The common annotations used in Java programming.</name>
+  <name>Common Annotations for Java Programming.</name>
   <url>${project.home.url}/${project.artifactId}</url>
 
 	<dependencies>
