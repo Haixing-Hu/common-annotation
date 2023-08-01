@@ -28,8 +28,7 @@ public @interface Privilege {
   /**
    * 指定接口所需的权限的编码。
    *
-   * @return
-   *     指定接口所需的权限的编码。
+   * @return 指定接口所需的权限的编码。
    */
   String value();
 }

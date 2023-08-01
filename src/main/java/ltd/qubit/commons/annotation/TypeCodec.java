@@ -26,8 +26,7 @@ public @interface TypeCodec {
   /**
    * 被标注类使用的编码器的类。
    *
-   * @return
-   *     被标注类使用的编码器的类。
+   * @return 被标注类使用的编码器的类。
    */
   Class<?> value();
 }

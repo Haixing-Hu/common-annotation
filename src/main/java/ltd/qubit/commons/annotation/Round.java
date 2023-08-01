@@ -35,8 +35,7 @@ public @interface Round {
   /**
    * 高精度数值计算和输出时的舍入方式，其默认值为{@link RoundingMode#HALF_UP}.
    *
-   * @return
-   *     数值计算和输出时的舍入方式。
+   * @return 数值计算和输出时的舍入方式。
    */
   RoundingMode value() default RoundingMode.HALF_UP;
 }

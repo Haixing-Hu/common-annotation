@@ -29,8 +29,7 @@ public @interface Reference {
    * 指定被标注的属性所引用的对象实体的类型。
    *
    * <p>如果此属性值取了其默认值{@code Object.class}，表示被标注的属性本身并非引用过了、
-   * 另一个实体对象的属性值，但其内部子属性可能引用了另一个对象实体的属性值。这样的引用方式
-   * 称为"间接引用"。</p>
+   * 另一个实体对象的属性值，但其内部子属性可能引用了另一个对象实体的属性值。这样的引用方式 称为"间接引用"。</p>
    *
    * <p>例如，{@code Organization.contact}属性标注了{@code entity}为默认的
    * {@code Object.class}的{@code @Reference}注解，这表明{@code Organization.contact}
@@ -78,16 +77,14 @@ public @interface Reference {
    * }
    * </code></pre>
    *
-   * @return
-   *     被标注字段所引用的对象实体的类对象。
+   * @return 被标注字段所引用的对象实体的类对象。
    */
   Class<?> entity() default Object.class;
 
   /**
    * 指定被标注的属性所引用的对象实体的属性值的属性名称。
    *
-   * @return
-   *     被标注的属性所引用的对象实体的属性值的属性名称。
+   * @return 被标注的属性所引用的对象实体的属性值的属性名称。
    */
   String property() default "";
 
@@ -96,8 +93,7 @@ public @interface Reference {
    *
    * <p>此属性默认值为{@code true}，表示所引用的对象应该是已经存在于数据库中的对象，
    * 因此构造该对象时需要将其预先添加到数据库中。如果此属性值为{@code false}，则表示
-   * 所引用的对象不需要预先加入数据库中，但该对象的内容子属性可能也是引用其他需加入数
-   * 据库的对象。</p>
+   * 所引用的对象不需要预先加入数据库中，但该对象的内容子属性可能也是引用其他需加入数 据库的对象。</p>
    *
    * <p>例如：{@code Credential.attachments}属性就引用了{@code existing}为
    * {@code false}的{@code Attachment}对象，即在构建一个合法的{@code Credential}
@@ -108,8 +104,7 @@ public @interface Reference {
    *
    * <p>上述例子的详情可参见{@code Credential}类的属性注解。</p>
    *
-   * @return
-   *     被标注的属性所引用的对象是否必须已存在于数据库中。
+   * @return 被标注的属性所引用的对象是否必须已存在于数据库中。
    */
   boolean existing() default true;
 
@@ -120,8 +115,7 @@ public @interface Reference {
    * 的对象是同一个对象。例如：{@code Address.district}所引用的{@code District}对象，
    * 与{@code Address.street}所引用的{@code Street}对象的{@code district}属性所引
    * 用的{@code District}对象是同一个对象。因此我们需要对{@code Address.district}标
-   * 注一个{@code path = "street/district"}的{@code @Reference}注解。
-   * 具体注解代码大致如下：</p>
+   * 注一个{@code path = "street/district"}的{@code @Reference}注解。 具体注解代码大致如下：</p>
    *
    * <pre><code>
    * &#64;XmlElement(name = "country")
@@ -178,14 +172,13 @@ public @interface Reference {
    *   ...
    * }
    * </code></pre>
-   *
+   * <p>
    * 注意其中{@code order.items}是该订单的所有订单项列表，在生成订单对象时，不要求其
    * 订单项是已存在的，因此其{@code Reference}注解的{@code existing}属性值为{@code false}。
    * {@code orderItem.orderId}是该订单项所属的订单的ID，因此其{@code Reference}注解
    * 的{@code path}属性值为{@code ..}，其中".."表示上一层的对象。
    *
-   * @return
-   *     被标注的属性所引用的对象在其所属对象属性树中的路径。
+   * @return 被标注的属性所引用的对象在其所属对象属性树中的路径。
    */
   String path() default "";
 }

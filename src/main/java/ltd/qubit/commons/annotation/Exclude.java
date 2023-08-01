@@ -24,4 +24,5 @@ import static java.lang.annotation.RetentionPolicy.RUNTIME;
 @Target(FIELD)
 @Documented
 public @interface Exclude {
+
 }

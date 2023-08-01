@@ -34,8 +34,7 @@ public @interface Scale {
   /**
    * 高精度数值计算和输出时的scale，即小数点后的数字位数。
    *
-   * @return
-   *     高精度数值计算和输出时的scale。
+   * @return 高精度数值计算和输出时的scale。
    */
   int value() default DEFAULT_SCALE;
 }

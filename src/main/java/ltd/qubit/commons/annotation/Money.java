@@ -41,24 +41,21 @@ public @interface Money {
   /**
    * 小数点后保留的数字位数，默认值为{@code 4}。
    *
-   * @return
-   *     小数点后保留的数字位数。
+   * @return 小数点后保留的数字位数。
    */
   int scale() default DEFAULT_SCALE;
 
   /**
    * 货币金额计算时默认的舍入方式，其默认值为{@link RoundingMode#HALF_UP}.
    *
-   * @return
-   *     货币金额计算时默认的舍入方式。
+   * @return 货币金额计算时默认的舍入方式。
    */
   RoundingMode roundingModel() default RoundingMode.HALF_UP;
 
   /**
    * 货币金额输出时是否显示分组，默认值为{@code false}.
    *
-   * @return
-   *     货币金额输出时是否显示分组。
+   * @return 货币金额输出时是否显示分组。
    */
   boolean useGroup() default false;
 }
