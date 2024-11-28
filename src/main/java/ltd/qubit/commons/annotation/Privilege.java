@@ -1,6 +1,6 @@
 ////////////////////////////////////////////////////////////////////////////////
 //
-//    Copyright (c) 2022 - 2023.
+//    Copyright (c) 2022 - 2024.
 //    Haixing Hu, Qubit Co. Ltd.
 //
 //    All rights reserved.
@@ -28,7 +28,8 @@ public @interface Privilege {
   /**
    * 指定接口所需的权限的编码。
    *
-   * @return 指定接口所需的权限的编码。
+   * @return
+   *     指定接口所需的权限的编码。
    */
   String value();
 }

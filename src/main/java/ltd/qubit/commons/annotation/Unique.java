@@ -1,6 +1,6 @@
 ////////////////////////////////////////////////////////////////////////////////
 //
-//    Copyright (c) 2022 - 2023.
+//    Copyright (c) 2022 - 2024.
 //    Haixing Hu, Qubit Co. Ltd.
 //
 //    All rights reserved.
@@ -11,7 +11,6 @@ package ltd.qubit.commons.annotation;
 import java.lang.annotation.Documented;
 import java.lang.annotation.Retention;
 import java.lang.annotation.Target;
-
 import jakarta.validation.constraints.NotNull;
 
 import static java.lang.annotation.ElementType.FIELD;
@@ -47,7 +46,6 @@ public @interface Unique {
   @Retention(RUNTIME)
   @Documented
   @interface List {
-
     NotNull[] value();
   }
 

@@ -11,22 +11,20 @@ package ltd.qubit.commons.annotation;
 import java.lang.annotation.Documented;
 import java.lang.annotation.Retention;
 import java.lang.annotation.Target;
-import java.util.concurrent.TimeUnit;
 
-import static java.lang.annotation.ElementType.FIELD;
+import static java.lang.annotation.ElementType.METHOD;
 import static java.lang.annotation.RetentionPolicy.RUNTIME;
 
 /**
- * 此标注指定{@link java.time.Instant}字段值的精度。
+ * 此注解表示被标注的方法被调用时，HTTP头不需要提供App的认证令牌。
+ *
+ * <p>此注解通常被标注在 RESTful 的 Controller 方法上。</p>
  *
  * @author 胡海星
  */
 @Retention(RUNTIME)
-@Target({FIELD})
+@Target(METHOD)
 @Documented
-public @interface Precision {
-
-  TimeUnit DEFAULT_VALUE = TimeUnit.MILLISECONDS;
-
-  TimeUnit value() default TimeUnit.MILLISECONDS;
+public @interface NoAppToken {
+  //  empty
 }

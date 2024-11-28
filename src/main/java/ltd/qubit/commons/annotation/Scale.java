@@ -1,6 +1,6 @@
 ////////////////////////////////////////////////////////////////////////////////
 //
-//    Copyright (c) 2022 - 2023.
+//    Copyright (c) 2022 - 2024.
 //    Haixing Hu, Qubit Co. Ltd.
 //
 //    All rights reserved.
@@ -34,7 +34,8 @@ public @interface Scale {
   /**
    * 高精度数值计算和输出时的scale，即小数点后的数字位数。
    *
-   * @return 高精度数值计算和输出时的scale。
+   * @return
+   *     高精度数值计算和输出时的scale。
    */
   int value() default DEFAULT_SCALE;
 }

@@ -1,6 +1,6 @@
 ////////////////////////////////////////////////////////////////////////////////
 //
-//    Copyright (c) 2022 - 2023.
+//    Copyright (c) 2022 - 2024.
 //    Haixing Hu, Qubit Co. Ltd.
 //
 //    All rights reserved.
@@ -26,7 +26,8 @@ public @interface TypeCodec {
   /**
    * 被标注类使用的编码器的类。
    *
-   * @return 被标注类使用的编码器的类。
+   * @return
+   *     被标注类使用的编码器的类。
    */
   Class<?> value();
 }
