@@ -11,6 +11,7 @@ package ltd.qubit.commons.annotation;
 import java.lang.annotation.Documented;
 import java.lang.annotation.Retention;
 import java.lang.annotation.Target;
+
 import jakarta.validation.constraints.NotNull;
 
 import static java.lang.annotation.ElementType.FIELD;
