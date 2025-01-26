@@ -17,7 +17,7 @@ import static java.lang.annotation.ElementType.FIELD;
 import static java.lang.annotation.RetentionPolicy.RUNTIME;
 
 /**
- * 此标注指定高精度数值计算和输出时的舍入方式。
+ * 此注解指定高精度数值计算和输出时的舍入方式。
  *
  * @author 胡海星
  * @see java.math.BigDecimal

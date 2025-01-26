@@ -16,7 +16,7 @@ import static java.lang.annotation.ElementType.METHOD;
 import static java.lang.annotation.RetentionPolicy.RUNTIME;
 
 /**
- * 此标注指定接口所需的操作权限。
+ * 此注解指定接口所需的操作权限。
  *
  * @author 胡海星
  */

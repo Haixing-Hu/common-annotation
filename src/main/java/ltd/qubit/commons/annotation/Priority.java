@@ -17,7 +17,7 @@ import static java.lang.annotation.ElementType.TYPE;
 import static java.lang.annotation.RetentionPolicy.RUNTIME;
 
 /**
- * 此标注声明某个字段或类在特定的操作中的优先级。
+ * 此注解声明某个字段或类在特定的操作中的优先级。
  *
  * @author 胡海星
  */

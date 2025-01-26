@@ -16,7 +16,7 @@ import static java.lang.annotation.ElementType.FIELD;
 import static java.lang.annotation.RetentionPolicy.RUNTIME;
 
 /**
- * 此标注声明某个属性对应的数据库表字段会被索引。
+ * 此注解声明某个属性对应的数据库表字段会被索引。
  *
  * @author 胡海星
  */

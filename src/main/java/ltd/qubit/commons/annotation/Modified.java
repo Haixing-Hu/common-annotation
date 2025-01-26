@@ -16,7 +16,7 @@ import static java.lang.annotation.ElementType.METHOD;
 import static java.lang.annotation.RetentionPolicy.RUNTIME;
 
 /**
- * 此标注声明某个操作所修改的字段。
+ * 此注解声明某个操作所修改的字段。
  *
  * @author 胡海星
  */

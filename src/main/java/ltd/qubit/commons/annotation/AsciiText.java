@@ -16,7 +16,7 @@ import static java.lang.annotation.ElementType.FIELD;
 import static java.lang.annotation.RetentionPolicy.RUNTIME;
 
 /**
- * 此标注指定一个字段的值必须是ASCII字符。
+ * 此注解指定一个字段的值必须是ASCII字符。
  *
  * @author 胡海星
  */

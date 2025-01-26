@@ -16,7 +16,7 @@ import static java.lang.annotation.ElementType.FIELD;
 import static java.lang.annotation.RetentionPolicy.RUNTIME;
 
 /**
- * 此标注指定某个属性是对另一个对象的特定属性值的引用。
+ * 此注解指定某个属性是对另一个对象的特定属性值的引用。
  *
  * @author 胡海星
  */

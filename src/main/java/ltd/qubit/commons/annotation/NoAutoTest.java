@@ -17,7 +17,7 @@ import static java.lang.annotation.ElementType.METHOD;
 import static java.lang.annotation.RetentionPolicy.RUNTIME;
 
 /**
- * 此标注声明某个方法不应被自动化测试。
+ * 此注解声明某个方法不应被自动化测试。
  *
  * <p>此注解是为了方便进行自动化DAO集成测试时，程序可以区分需要自动化测试的DAO操作和不能自动化
  * 测试的DAO操作。</p>

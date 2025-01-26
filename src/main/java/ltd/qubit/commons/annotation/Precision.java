@@ -17,7 +17,7 @@ import static java.lang.annotation.ElementType.FIELD;
 import static java.lang.annotation.RetentionPolicy.RUNTIME;
 
 /**
- * 此标注指定{@link java.time.Instant}字段值的精度。
+ * 此注解指定{@link java.time.Instant}字段值的精度。
  *
  * @author 胡海星
  */

@@ -16,7 +16,7 @@ import static java.lang.annotation.ElementType.FIELD;
 import static java.lang.annotation.RetentionPolicy.RUNTIME;
 
 /**
- * 此标注声明某个集合或数组属性中的元素不可重复。
+ * 此注解声明某个集合或数组属性中的元素不可重复。
  *
  * @author 胡海星
  */

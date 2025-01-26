@@ -16,7 +16,7 @@ import static java.lang.annotation.ElementType.FIELD;
 import static java.lang.annotation.RetentionPolicy.RUNTIME;
 
 /**
- * 此标注声明某个字段在被作为复合索引时，在复合索引中的出现的位置顺序。
+ * 此注解声明某个字段在被作为复合索引时，在复合索引中的出现的位置顺序。
  *
  * <p>例如，{@code Payload}类有个{@code owner}属性，表示该{@code Payload}的所有者。
  * {@code owner}属性是另一个类，有{@code type}和{@code id}字段。在数据库建索引时，

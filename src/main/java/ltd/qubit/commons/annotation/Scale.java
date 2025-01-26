@@ -16,7 +16,7 @@ import static java.lang.annotation.ElementType.FIELD;
 import static java.lang.annotation.RetentionPolicy.RUNTIME;
 
 /**
- * 此标注指定高精度数值计算和输出时的scale，即小数点后的数字位数。
+ * 此注解指定高精度数值计算和输出时的scale，即小数点后的数字位数。
  *
  * @author 胡海星
  * @see java.math.BigDecimal

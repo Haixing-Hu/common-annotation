@@ -18,7 +18,7 @@ import static java.lang.annotation.ElementType.FIELD;
 import static java.lang.annotation.RetentionPolicy.RUNTIME;
 
 /**
- * 此标注表示属性取值是全局或局部唯一的。
+ * 此注解表示属性取值是全局或局部唯一的。
  *
  * @author 胡海星
  */

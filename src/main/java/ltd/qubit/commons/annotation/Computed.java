@@ -17,7 +17,7 @@ import static java.lang.annotation.ElementType.METHOD;
 import static java.lang.annotation.RetentionPolicy.RUNTIME;
 
 /**
- * 此标注声明某个属性或getter方法是计算出的bean属性而非只读属性。
+ * 此注解声明某个属性或getter方法是计算出的bean属性而非只读属性。
  *
  * @author 胡海星
  */
