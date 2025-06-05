@@ -26,7 +26,15 @@ import static java.lang.annotation.RetentionPolicy.RUNTIME;
 @Documented
 public @interface Precision {
 
+  /**
+   * 默认时间精度。
+   */
   TimeUnit DEFAULT_VALUE = TimeUnit.MILLISECONDS;
 
+  /**
+   * 表示 {@link java.time.Instant} 字段值的时间精度。
+   *
+   * @return {@link java.time.Instant} 字段值的时间精度，默认为毫秒。
+   */
   TimeUnit value() default TimeUnit.MILLISECONDS;
 }
