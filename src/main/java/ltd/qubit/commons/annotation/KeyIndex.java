@@ -1,6 +1,6 @@
 ////////////////////////////////////////////////////////////////////////////////
 //
-//    Copyright (c) 2022 - 2024.
+//    Copyright (c) 2022 - 2025.
 //    Haixing Hu, Qubit Co. Ltd.
 //
 //    All rights reserved.
@@ -32,9 +32,9 @@ import static java.lang.annotation.RetentionPolicy.RUNTIME;
  *
  * <pre><code>
  * class Owner {
- *    @KeyIndex(0)
+ *    &#64;KeyIndex(0)
  *    private String type;
- *    @KeyIndex(1)
+ *    &#64;KeyIndex(1)
  *    private Long id;
  * }
  * </code></pre>
